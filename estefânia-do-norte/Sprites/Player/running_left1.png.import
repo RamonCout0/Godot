@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c64n7cxyfuhsm"
-path="res://.godot/imported/robo.png-31617d72ba4194bf74b39bc35b4dd821.ctex"
+uid="uid://bwinik7b82pur"
+path="res://.godot/imported/running_left1.png-26938cc3411c5926bac89358e248111c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/robo.png"
-dest_files=["res://.godot/imported/robo.png-31617d72ba4194bf74b39bc35b4dd821.ctex"]
+source_file="res://Sprites/Player/running_left1.png"
+dest_files=["res://.godot/imported/running_left1.png-26938cc3411c5926bac89358e248111c.ctex"]
 
 [params]
 

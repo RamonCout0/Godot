@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cilacu4jixb0n"
-path="res://.godot/imported/spr_Tukomoto_move.png-7c5188d709316bed41fac9d27790af2d.ctex"
+uid="uid://ddqtc4pppxuq4"
+path="res://.godot/imported/idle2.png-247e873c460f0c7842e19584c79ae655.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/spr_Tukomoto_move.png"
-dest_files=["res://.godot/imported/spr_Tukomoto_move.png-7c5188d709316bed41fac9d27790af2d.ctex"]
+source_file="res://Sprites/Player/idle2.png"
+dest_files=["res://.godot/imported/idle2.png-247e873c460f0c7842e19584c79ae655.ctex"]
 
 [params]
 

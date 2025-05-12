@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm1x2bkwue2wa"
-path="res://.godot/imported/spr_Takerumi_move.png-670370427e4803c77e0b227f74ead32e.ctex"
+uid="uid://bepayqdcnxltp"
+path="res://.godot/imported/running_left2.png-9d952b48e208d583911b5f12f8de5f4d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/spr_Takerumi_move.png"
-dest_files=["res://.godot/imported/spr_Takerumi_move.png-670370427e4803c77e0b227f74ead32e.ctex"]
+source_file="res://Sprites/Player/running_left2.png"
+dest_files=["res://.godot/imported/running_left2.png-9d952b48e208d583911b5f12f8de5f4d.ctex"]
 
 [params]
 

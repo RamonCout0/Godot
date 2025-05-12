@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brqdp7dd2mejc"
-path="res://.godot/imported/SPrite definitvo protagonista.png-bafa63c61afadfe4358c39d7c264098a.ctex"
+uid="uid://bgjkibmgrqlfe"
+path="res://.godot/imported/running_down2.png-25ff72ea9d6fea1586d53575631d6b07.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/SPrite definitvo protagonista.png"
-dest_files=["res://.godot/imported/SPrite definitvo protagonista.png-bafa63c61afadfe4358c39d7c264098a.ctex"]
+source_file="res://Sprites/Player/running_down2.png"
+dest_files=["res://.godot/imported/running_down2.png-25ff72ea9d6fea1586d53575631d6b07.ctex"]
 
 [params]
 

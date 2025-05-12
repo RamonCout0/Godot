@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbxepbqjyvc7h"
-path="res://.godot/imported/TileMap1.png-fb864a994f6debabb065db234d5323ce.ctex"
+uid="uid://crnlb7308vduq"
+path="res://.godot/imported/running_down1.png-47577935ffce47e23abfff0d6ce2382d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/TileMap1.png"
-dest_files=["res://.godot/imported/TileMap1.png-fb864a994f6debabb065db234d5323ce.ctex"]
+source_file="res://Sprites/Player/running_down1.png"
+dest_files=["res://.godot/imported/running_down1.png-47577935ffce47e23abfff0d6ce2382d.ctex"]
 
 [params]
 

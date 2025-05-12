@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://daql12a8vdqk1"
-path="res://.godot/imported/TL_pisos.png-adbc1215e3f7f24d121669f661dce9e7.ctex"
+uid="uid://bv8vun0qfi736"
+path="res://.godot/imported/idle_left2.png-eb8e039a69301bd2ed3873277e9e56e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/TL_pisos.png"
-dest_files=["res://.godot/imported/TL_pisos.png-adbc1215e3f7f24d121669f661dce9e7.ctex"]
+source_file="res://Sprites/Player/idle_left2.png"
+dest_files=["res://.godot/imported/idle_left2.png-eb8e039a69301bd2ed3873277e9e56e0.ctex"]
 
 [params]
 

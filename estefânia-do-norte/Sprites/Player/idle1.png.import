@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dt0xmwrhk5bk1"
-path="res://.godot/imported/robo morrendo-sheet.png-a1b0b05c864525a50e94e6eb406719a2.ctex"
+uid="uid://bd3i4j7pyx3he"
+path="res://.godot/imported/idle1.png-5fc37c1073c67b53a9298f5ecca7cafd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/robo morrendo-sheet.png"
-dest_files=["res://.godot/imported/robo morrendo-sheet.png-a1b0b05c864525a50e94e6eb406719a2.ctex"]
+source_file="res://Sprites/Player/idle1.png"
+dest_files=["res://.godot/imported/idle1.png-5fc37c1073c67b53a9298f5ecca7cafd.ctex"]
 
 [params]
 
