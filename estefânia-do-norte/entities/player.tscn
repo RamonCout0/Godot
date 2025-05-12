@@ -1,46 +1,16 @@
-[gd_scene load_steps=15 format=3 uid="uid://tp5wnpmjeysl"]
+[gd_scene load_steps=12 format=3 uid="uid://tp5wnpmjeysl"]
 
 [ext_resource type="Script" uid="uid://cbv8ievjg4pnk" path="res://entities/character_body_2d.gd" id="1_b0kkn"]
-[ext_resource type="Texture2D" uid="uid://brqdp7dd2mejc" path="res://Sprites/SPrite definitvo protagonista.png" id="2_e4p34"]
-[ext_resource type="Texture2D" uid="uid://bdw0xjk2u85vl" path="res://Sprites/Zombie.png" id="3_e4p34"]
+[ext_resource type="Texture2D" uid="uid://bd3i4j7pyx3he" path="res://Sprites/Player/idle1.png" id="2_ef06p"]
+[ext_resource type="Texture2D" uid="uid://ddqtc4pppxuq4" path="res://Sprites/Player/idle2.png" id="3_tjdhl"]
+[ext_resource type="Texture2D" uid="uid://crnlb7308vduq" path="res://Sprites/Player/running_down1.png" id="4_x08pd"]
+[ext_resource type="Texture2D" uid="uid://bgjkibmgrqlfe" path="res://Sprites/Player/running_down2.png" id="5_dchgp"]
+[ext_resource type="Texture2D" uid="uid://bwinik7b82pur" path="res://Sprites/Player/running_left1.png" id="6_kdgjc"]
+[ext_resource type="Texture2D" uid="uid://bepayqdcnxltp" path="res://Sprites/Player/running_left2.png" id="7_q0i8f"]
+[ext_resource type="Texture2D" uid="uid://r3klwvt38vyl" path="res://Sprites/Player/running_up1.png" id="8_0i614"]
+[ext_resource type="Texture2D" uid="uid://b7ekdej40c5xw" path="res://Sprites/Player/running_up2.png" id="9_oprnr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hqtel"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_rfe5m"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_qly61"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(64, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_qsoyl"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(128, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_6nm46"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(192, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_i623q"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(256, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ef06p"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(320, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_tjdhl"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(384, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_x08pd"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(448, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_dchgp"]
-atlas = ExtResource("3_e4p34")
-region = Rect2(512, 0, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_kdgjc"]
 animations = [{
@@ -51,43 +21,58 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_e4p34")
+"texture": ExtResource("2_ef06p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tjdhl")
 }],
 "loop": true,
 "name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_x08pd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dchgp")
+}],
+"loop": true,
+"name": &"running_down",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_rfe5m")
+"texture": ExtResource("6_kdgjc")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_qly61")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_qsoyl")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_6nm46")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_i623q")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ef06p")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_tjdhl")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_x08pd")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_dchgp")
+"texture": ExtResource("7_q0i8f")
 }],
 "loop": true,
-"name": &"running",
+"name": &"running_left",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_kdgjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_q0i8f")
+}],
+"loop": true,
+"name": &"running_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_0i614")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_oprnr")
+}],
+"loop": true,
+"name": &"running_up",
+"speed": 4.0
 }]
 
 [node name="player" type="Node2D"]
@@ -108,5 +93,6 @@ limit_smoothed = true
 texture_filter = 1
 scale = Vector2(1.09617, 1.05665)
 sprite_frames = SubResource("SpriteFrames_kdgjc")
-animation = &"running"
+animation = &"running_up"
 autoplay = "idle"
+frame_progress = 0.950113

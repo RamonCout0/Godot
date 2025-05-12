@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 var player_direction : Vector2 = Vector2(0,0)
-var player_speed : float = 400.0
+const player_speed : float = 400.0
 
 @onready var anim: AnimatedSprite2D = $AnimatedSprite2D
 
@@ -13,29 +13,24 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	moviment_player()
+	moviment_player(delta)
 
 
-func moviment_player() -> void:
-	if (Input.is_action_pressed("mov_left")):
-		player_direction.x = -1
-		anim.play("running")
-		anim.flip_h = true
-	elif (Input.is_action_pressed("mov_right")):
-		player_direction.x = 1
-		anim.play("running")
-		anim.flip_h = false
+func moviment_player(delta: float) -> void:
+	var velocity = Input.get_vector("mov_left","mov_right","mov_up","mov_down")
+	
+	if (velocity.length() > 0):
+		velocity = velocity.normalized() * player_speed
 		
+	if (velocity.x != 0):
+		anim.play("running_left")
+	elif (velocity.y > 0):
+		anim.play("running_down")
+	elif (velocity.y < 0):
+		anim.play("running_up")
 	else:
-		player_direction.x = 0
 		anim.play("idle")
 		
-	if (Input.is_action_pressed("mov_up")):
-		player_direction.y = -1
-	elif (Input.is_action_pressed("mov_down")):
-		player_direction.y = 1
-	else:
-		player_direction.y = 0
-		
-	velocity = player_direction.normalized() * player_speed 
-	move_and_slide()
+	anim.flip_h = true if velocity.x > 0 else false
+	
+	position += velocity * delta
