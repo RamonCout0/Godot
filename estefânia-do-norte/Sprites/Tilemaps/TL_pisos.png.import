@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkmgf3k7e28q"
-path="res://.godot/imported/TL_pisos.png-adbc1215e3f7f24d121669f661dce9e7.ctex"
+path="res://.godot/imported/TL_pisos.png-5b0ba8a0300ba4d908e549bd8c70ec96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/TL_pisos.png"
-dest_files=["res://.godot/imported/TL_pisos.png-adbc1215e3f7f24d121669f661dce9e7.ctex"]
+source_file="res://Sprites/Tilemaps/TL_pisos.png"
+dest_files=["res://.godot/imported/TL_pisos.png-5b0ba8a0300ba4d908e549bd8c70ec96.ctex"]
 
 [params]
 
